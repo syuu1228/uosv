@@ -1,4 +1,3 @@
-libuv
 osv
 userdata
 !userdata/Makefile
