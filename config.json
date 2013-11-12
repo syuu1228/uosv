@@ -1,0 +1,14 @@
+{
+   "modules":[
+      {
+	 "name":"osv-mruby",
+         "type":"git",
+         "path":"https://github.com/syuu1228/osv-mruby.git
+      },
+      {
+	 "name":"userdata",
+         "type":"dir",
+         "path":"../userdata"
+      },
+   ]
+}
