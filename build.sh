@@ -13,5 +13,6 @@ cd osv
 git checkout module
 git submodule update --init
 cp ../config.json .
+cp ../*.skel .
 sudo make external all
 cd -
