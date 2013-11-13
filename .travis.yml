@@ -1,12 +1,14 @@
-language: c
+language: cpp
 compiler:
-  - gcc
+  - gcc-4.8
 before_install:
+  - sudo add-apt-repository --yes ppa:ubuntu-toolchain-r/test
   - sudo apt-get -qq update
 install:
   - sudo apt-get -qq install rake openjdk-7-jdk autotools-dev libltdl-dev libtool autoconf autopoint libboost-all-dev
   - sudo apt-get -qq install genromfs zfs-fuse autoconf ant libffi-dev ruby bison gyp git build-essential
   - sudo apt-get -qq install qemu-utils qemu-kvm bridge-utils libvirt0 libvirt-bin
+  - sudo apt-get -qq install g++-4.8
   - cd ../
   - mkdir libuv
   - cd libuv
@@ -16,4 +18,4 @@ install:
   - sudo dpkg -i libuv*.deb
   - cd ../uosv
 script: 
-  - ./build.sh
+  - ./build.sh CC=gcc-4.8 CXX=g++-4.8
