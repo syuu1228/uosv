@@ -15,6 +15,11 @@ There are prerequisite packages before start building.
 sudo apt-get install openjdk-7-jdk autotools-dev libltdl-dev libtool autoconf autopoint libboost-all-dev \
 genromfs zfs-fuse autoconf ant libffi-dev ruby bison gyp git build-essential qemu-utils qemu-system-x86 \
 bridge-utils libvirt0 libvirt-bin
+
+wget https://launchpad.net/ubuntu/+archive/primary/+files/libuv-dev_0.10.18-1_amd64.deb
+wget https://launchpad.net/ubuntu/+archive/primary/+files/libuv0.10-dbg_0.10.18-1_amd64.deb
+wget https://launchpad.net/ubuntu/+archive/primary/+files/libuv0.10_0.10.18-1_amd64.deb
+sudo dpkg -i libuv*.deb
 ```
 
 To start building, execute following command:
