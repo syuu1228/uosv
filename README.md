@@ -4,9 +4,15 @@
 µOSv is lightweight edition of OSv, which uses mruby interpreter instead of Java VM for its system language.  
 Here's a movie how µOSv looks like: http://www.youtube.com/watch?v=hSK_VZkwmxI
 
+## What's this?
 
-## Supported HostOS
-Ubuntu 13.10/x86_64
+It's cloud OS which specialized for running mruby script, works on both KVM and Xen, and some IaaS/VPS services.  
+Able to run very few memory amount(>90MB for now), very small disk image size(26MB for now), very fast boot-up speed(less than 2sec).  
+Original OSv is great OS to run Java application, but it's too huge in some usecases.
+µOSv offers much smaller / simpler enviroment for developers who loves scripting language.
+
+## Tested HostOS
+KVM on Ubuntu 13.10/x86_64
 
 ## Building
 
