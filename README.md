@@ -13,7 +13,7 @@ There are prerequisite packages before start building.
 **Ubuntu**
 ```
 sudo apt-get install openjdk-7-jdk autotools-dev libltdl-dev libtool autoconf autopoint libboost-all-dev \
-genromfs zfs-fuse autoconf ant libffi-dev ruby bison gyp git build-essential
+genromfs zfs-fuse autoconf ant libffi-dev ruby bison gyp git build-essential qemu-utils
 ```
 
 To start building, execute following command:
