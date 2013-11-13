@@ -1,7 +1,7 @@
 #!/bin/sh
 rm -rf libuv
 git clone https://github.com/joyent/libuv.git
-git checkout v0.10.19
+git checkout v0.11.8
 cd libuv
 ./gyp_uv.py -f make
 make -C out
