@@ -39,6 +39,12 @@ To run µOSv, execute following command:
 ./run.sh
 ```
 
+You also can specify VM memory size like this:
+```
+./run.sh 90m
+```
+
+
 ## Updating µOSv filesystem
 
 Add files under userdata, update userdata/Makefile, then
