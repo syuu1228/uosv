@@ -15,5 +15,6 @@ git checkout module
 git submodule update --init
 cp ../config.json .
 cp ../*.skel .
+cp ../build.mk .
 sudo make external all
 cd -
