@@ -47,7 +47,7 @@ You also can specify VM memory size like this:
 
 ## Updating µOSv filesystem
 
-Add files under userdata, update userdata/Makefile, then
+Add files under userdata/, then execute following command:
 ```
 ./update.sh
 ```
