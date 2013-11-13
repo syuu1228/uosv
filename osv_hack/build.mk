@@ -606,9 +606,7 @@ usr.img: scripts/mkzfs.py $(out)/usr.manifest $(jni) usr.raw
 
 $(jni): INCLUDES += -I /usr/lib/jvm/java/include -I /usr/lib/jvm/java/include/linux/
 
-bootfs.bin: scripts/mkbootfs.py $(out)/bootfs.manifest $(tests) $(tools) \
-		tests/testrunner.so java/java.so java/runjava.jar \
-		zpool.so zfs.so
+bootfs.bin: scripts/mkbootfs.py $(out)/bootfs.manifest
 	$(call quiet, $(src)/scripts/mkbootfs.py -o $@ -d $@.d -m $(out)/bootfs.manifest \
 		-D jdkbase=$(jdkbase) -D gccbase=$(gccbase) -D \
 		glibcbase=$(glibcbase) -D miscbase=$(miscbase), MKBOOTFS $@)
