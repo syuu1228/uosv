@@ -1,7 +1,7 @@
 µOSv
 ====
 
-µOSv is lightweight edition of OSv, which uses mruby interpreter instead of Java VM for system language.
+µOSv is lightweight edition of OSv, which uses mruby interpreter instead of Java VM for its system language.
 
 ## Supported HostOS
 Ubuntu 13.10/x86_64
