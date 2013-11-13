@@ -1,6 +1,6 @@
 language: cpp
 compiler:
-  - gcc-4.8
+  - gcc
 before_install:
   - sudo add-apt-repository --yes ppa:ubuntu-toolchain-r/test
   - sudo apt-get -qq update
