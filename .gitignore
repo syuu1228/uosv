@@ -1,2 +1,7 @@
 libuv
 osv
+userdata
+!userdata/Makefile
+!userdata/kame.rb
+!userdata/md5.rb
+!userdata/yaml.rb
