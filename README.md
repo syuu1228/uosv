@@ -1,8 +1,7 @@
 µOSv
 ====
 
-µOSv is lightweight edition of OSv, which uses mruby interpreter instead of Java VM for its system language.
-
+µOSv is lightweight edition of OSv, which uses mruby interpreter instead of Java VM for its system language.  
 Here's a movie how µOSv looks like: http://www.youtube.com/watch?v=hSK_VZkwmxI
 
 
@@ -51,3 +50,8 @@ Add files under userdata/, then execute following command:
 ```
 ./update.sh
 ```
+
+## Limitations
+* mruby-libuv is very unstable for now.
+* µOSv disables OSv's ZFS, so you only have ramfs for now.  
+You can write files on ramfs, but you'll lost all you written data beyond shutdown/reboot.
