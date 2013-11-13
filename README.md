@@ -13,11 +13,13 @@ There are prerequisite packages before start building.
 **Ubuntu**
 ```
 sudo apt-get install openjdk-7-jdk autotools-dev libltdl-dev libtool autoconf autopoint libboost-all-dev \
-genromfs zfs-fuse autoconf ant libffi-dev ruby bison gyp
+genromfs zfs-fuse autoconf ant libffi-dev ruby bison gyp git
 ```
 
 To start building, execute following command:
 ```
+git clone https://github.com/syuu1228/uosv.git
+cd uosv
 ./build.sh
 ```
 
