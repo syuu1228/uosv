@@ -4,7 +4,7 @@ compiler:
 before_install:
   - sudo apt-get -qq update
 install:
-  - sudo apt-get -qq install rake gperf openjdk-7-jdk autotools-dev libltdl-dev libtool autoconf autopoint libboost-all-dev genromfs zfs-fuse autoconf ant libffi-dev ruby bison gyp git build-essential qemu-utils qemu-system-x86 bridge-utils libvirt0 libvirt-bin
+  - sudo apt-get -qq install rake openjdk-7-jdk autotools-dev libltdl-dev libtool autoconf autopoint libboost-all-dev genromfs zfs-fuse autoconf ant libffi-dev ruby bison gyp git build-essential qemu-utils qemu-system-x86 bridge-utils libvirt0 libvirt-bin
   - cd ../
   - mkdir libuv
   - cd libuv
