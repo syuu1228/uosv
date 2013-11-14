@@ -1,4 +1,4 @@
-µOSv
+µOSv [![Build Status](https://travis-ci.org/syuu1228/uosv.png?branch=master)](https://travis-ci.org/syuu1228/uosv)
 ====
 
 µOSv is lightweight edition of OSv, which uses mruby interpreter instead of Java VM for its system language.  
