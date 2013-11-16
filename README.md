@@ -61,7 +61,6 @@ Add files under userdata/, then execute following command:
 
 OSv related products are almost under BSDL.   
 mruby related products are almost under MIT.  
-mruby-polarssl and mruby-sha1 are under GPL/LGPL.  
 mruby-vedis is under Sleepycat License.  
 
 |Product|Dependencies|License |
@@ -91,12 +90,9 @@ mruby-vedis is under Sleepycat License.
 |mruby-http|mruby-uv|MIT|
 |mruby-json| |MIT|
 |mruby-msgpack-rpc|mruby-socket,mruby-msgpack|MIT|
-|mruby-polarssl|PolarSSL|LGPLv3|
-|PolarSSL| |GPL/Commercial(Dual)| 
 |mruby-yaml|libyaml|MIT|
 |libyaml| |MIT|
 |mruby-base64| |MIT|
-|mruby-sha1| |GPL|
 |mruby-md5| |MIT|
 |mruby-vedis| |Sleepycat License|
 |mruby-sleep| |MIT|
@@ -107,6 +103,14 @@ mruby-vedis is under Sleepycat License.
 |libffi|mruby-cfunc|MIT|
 |μOSv build scripts| |MIT|
 |mruby-eshell|mruby-io,mruby-dir,mruby-ipaddr|MIT|
+
+These modules are lisenced under copyleft license, disabled by default.
+
+|Product|Dependencies|License |
+|------ |----------- |------- |
+|mruby-polarssl|PolarSSL|LGPLv3|
+|PolarSSL| |GPL/Commercial(Dual)| 
+|mruby-sha1| |GPL|
 
 ## Limitations
 * libuv is ported, but very unstable for now.
