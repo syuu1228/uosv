@@ -105,6 +105,7 @@ mruby-vedis is under Sleepycat License.
 |mruby-aws-s3|mruby-uv, mruby-http, mruby-digest, mruby-pack, mruby-simplehttp, mruby-httprequest|MIT|
 |mruby-cfunc|libffi|MIT|
 |libffi|mruby-cfunc|MIT|
+|mruby-eshell|mruby-io,mruby-dir,mruby-ipaddr|MIT|
 
 ## Limitations
 * libuv is ported, but very unstable for now.
