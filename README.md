@@ -107,6 +107,6 @@ mruby-vedis is under Sleepycat License.
 |libffi|mruby-cfunc|MIT|
 
 ## Limitations
-* mruby-libuv is very unstable for now.
+* libuv is ported, but very unstable for now.
 * µOSv disables OSv's ZFS, so you only have ramfs for now.  
 You can write files on ramfs, but you'll lost all you written data beyond shutdown/reboot.
