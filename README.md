@@ -57,6 +57,55 @@ Add files under userdata/, then execute following command:
 ./update.sh
 ```
 
+## License
+
+OSv related products are almost under BSDL.   
+mruby related products are almost under MIT.  
+mruby-polarssl and mruby-sha1 are under GPL/LGPL.  
+mruby-vedis is under Sleepycat License.  
+
+|Product|Dependencies|License |
+|------ |----------- |------- |
+|OSv|FreeBSD, ZFS, Prex, Musl|BSDL|
+|FreeBSD| |BSDL|
+|ZFS| |CDDL|
+|Prex| |MIT|
+|Musl| |MIT, BSDL|
+|mruby| |MIT|
+|mruby-dir| |MIT|
+|mruby-env| |MIT|
+|mruby-errno| |MIT|
+|mruby-ipaddr| |MIT|
+|mruby-mock| |MIT|
+|mruby-mtest| |MIT|
+|mruby-pack| |MIT|
+|mruby-process| |MIT|
+|mruby-regexp-pcre| |MIT|
+|mruby-require| |MIT|
+|mruby-simple-random| |MIT|
+|mruby-socket| |MIT|
+|mruby-tempfile| |MIT|
+|mruby-msgpack| |MIT|
+|mruby-uv|libuv|MIT|
+|libuv| |MIT|
+|mruby-http|mruby-uv|MIT|
+|mruby-json| |MIT|
+|mruby-msgpack-rpc|mruby-socket,mruby-msgpack|MIT|
+|mruby-polarssl|PolarSSL|LGPLv3|
+|PolarSSL| |GPL/Commercial(Dual)| 
+|mruby-yaml|libyaml|MIT|
+|libyaml| |MIT|
+|mruby-base64| |MIT|
+|mruby-sha1| |GPL|
+|mruby-md5| |MIT|
+|mruby-vedis| |Sleepycat License|
+|mruby-sleep| |MIT|
+|mruby-simplehttp| |MIT|
+|mruby-httprequest| |MIT|
+|mruby-aws-s3|mruby-uv, mruby-http, mruby-digest, mruby-pack, mruby-simplehttp, mruby-httprequest|MIT|
+|mruby-cfunc|libffi|MIT|
+|libffi|mruby-cfunc|MIT|
+
 ## Limitations
 * mruby-libuv is very unstable for now.
 * µOSv disables OSv's ZFS, so you only have ramfs for now.  
