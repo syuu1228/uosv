@@ -37,6 +37,11 @@ cd uosv
 ./build.sh
 ```
 
+If you want to enable GPL mrbgems, use
+```
+./build_gpl.sh
+```
+
 ## Running µOSv
 
 To run µOSv, execute following command:
