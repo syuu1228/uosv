@@ -4,13 +4,7 @@
 	 "name":"osv-mruby",
          "type":"git",
          "path":"https://github.com/syuu1228/osv-mruby.git",
-	 "branch":"master"
-      },
-      {
-	 "name":"mruby-eshell",
-         "type":"git",
-         "path":"https://github.com/syuu1228/mruby-eshell.git",
-	 "branch":"master"
+	 "branch":"copyleft"
       },
       {
 	 "name":"userdata",

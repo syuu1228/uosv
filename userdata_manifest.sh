@@ -1,5 +1,5 @@
 #!/bin/sh
-for i in *.rb; do
+for i in *; do
 	if [ "$i" = "Makefile" ]; then
 		continue
 	fi

@@ -1,7 +1,7 @@
 module: bootfs.manifest usr.manifest
 
 bootfs.manifest:
-	sh ../../../../../build_bootfs_manifest.sh
+	sh ../../../../../userdata_manifest.sh
 
 usr.manifest:
 	echo "" > $@
