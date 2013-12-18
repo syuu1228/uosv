@@ -15,9 +15,14 @@ Original OSv is great OS to run Java application, but it's too huge in some usec
 KVM on Ubuntu 13.10/x86_64
 
 ### Try Binary Image
+Copy and paste following commands on your shell.
 
     wget https://dl.dropboxusercontent.com/u/648670/uosv_20131219.img
-    sudo qemu-system-x86_64 -m 128m -drive file=uosv_20131219.img,if=virtio,cache=none -netdev user,id=un0,net=192.168.122.0/24,host=192.168.122.1 -device virtio-net-pci,netdev=un0 -enable-kvm -cpu host,+x2apic -chardev stdio,mux=on,id=stdio -mon chardev=stdio,mode=readline,default -device isa-serial,chardev=stdio -nographic
+    sudo qemu-system-x86_64 -m 128m -drive file=uosv_20131219.img,if=virtio,cache=none \
+    -netdev user,id=un0,net=192.168.122.0/24,host=192.168.122.1 \
+    -device virtio-net-pci,netdev=un0 -enable-kvm -cpu host,+x2apic \
+    -chardev stdio,mux=on,id=stdio -mon chardev=stdio,mode=readline,default \
+    -device isa-serial,chardev=stdio -nographic
 
 ## Building
 
