@@ -1,6 +1,11 @@
 µOSv [![Build Status](https://travis-ci.org/syuu1228/uosv.png?branch=master)](https://travis-ci.org/syuu1228/uosv)
 ====
 
+<strong>µOSv is merged into OSv. Please check <a href="https://github.com/cloudius-systems/osv">upstream</a>.<br />
+This repository is not maintained anymore.</strong>
+
+----
+
 µOSv is lightweight edition of OSv, which uses mruby interpreter instead of Java VM for its system language.  
 Here's a movie how µOSv looks like: http://www.youtube.com/watch?v=hSK_VZkwmxI
 
